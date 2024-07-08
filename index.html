@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+ <head>
+     <meta charset="UTT-8">
+      <title>Login Templet</title>
+      <link rel="stylesheet" href="CSS/all.min.css">
+      <link rel="stylesheet" href="CSS/fontawesome.min.css">
+     <link rel="stylesheet" href="CSS/bootstrap.min.css">
+     <link rel="stylesheet" href="css/style.css">
+
+ </head>
+
+ <body>
+<!--------------------Header Part Start--------------------------->
+    <header>
+       <h2 class="logo">Logo</h2>
+       <div class="navigation">
+           <a href="#">Home</a>
+           <a href="#">About</a>
+           <a href="#">Service</a>
+           <a href="#">Contact</a>
+          
+           <button class="btnLogin-popup">Login</button>
+       </div>
+
+    </header>
+<!--------------------Header Part End--------------------------->
+
+<!--------------------Login/Registration Part Start------------->
+     <div class="wrapper">
+        <span class="icon-close">-</span>
+        <div class="form-box login">
+           <h2 class="text-light">Login</h2>
+           <form action="#">
+              <div class="input-box">
+                  <span class="icon"><i class="fa-regular fa-trash-can"></i></span>
+                  <input type="email" name="email" required>
+                  <label>Email</label>
+              </div>
+
+              <div class="input-box">
+                  <span class="icon"><i class="fas fa-lock"></i></span>
+                  <input type="password" name="password" required>
+                  <label>Password</label>
+              </div>
+
+              <div class="remember-forget">
+                 <label><input type="checkbox">Remember Me</label>
+                 <a href="#">Forgot Password?</a>
+              </div>
+
+               <button class="lobtn">Login</button>
+               <div class="login-register">
+                 <p>Don't have an account? <a class="register-link" href="#">Register</a></p>
+               </div>
+
+           </form>
+        </div>
+
+         <div class="form-box register">
+           <h2 class="text-light">Registration</h2>
+           <form action="#">
+               
+               <div class="input-box">
+                  <span class="icon"><i class="fas fa-user"></i></span>
+                  <input type="text" name="name" required>
+                  <label>User Name</label>
+              </div>
+
+              <div class="input-box">
+                  <span class="icon"><i class="fas fa-lock"></i></span>
+                  <input type="email" name="email" required>
+                  <label>Email</label>
+              </div>
+
+              <div class="input-box">
+                  <span class="icon"><i class="fas fa-lock"></i></span>
+                  <input type="password" name="password" required>
+                  <label>Password</label>
+              </div>
+
+              <div class="remember-forget">
+                 <label><input type="checkbox">I agree the terms & conditions</label>
+              </div>
+
+               <button class="lobtn">Login</button>
+               <div class="login-register">
+                 <p>You have a account? <a class="login-link" href="#">Login</a></p>
+               </div>
+
+           </form>
+        </div>
+
+     </div> 
+<!--------------------Login/Registration Part End------------->
+
+<!-- <i class="fa-regular fa-pen-to-square"></i> -->
+     <script src="JS/bootstrap.min.js"></script>
+     <script src="js/index.js"></script>
+ </body>
+
+</html>
